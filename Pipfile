@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask-ask="*"
+cryptography="==2.1.4"
+# pip install file+git:///Users/dan/workspace/pycycles
+
+[requires]
+python_version = "3.6"
