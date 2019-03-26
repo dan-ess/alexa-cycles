@@ -1,5 +1,14 @@
 # alexa-cycles
-Alexa skill that enables users to find and rent cycles with docomo cycle service
+Find and rent cycles from the docomo cycle service using Alexa.
+
+After creating an [API for the docomo cycle service](https://github.com/dan-ess/pycycles), I thought I'd try using it with via a voice interface, i.e. Alexa.
+
+Unfortunately, Alexa's voice API didn't provide much benefit over renting via the web site.
+
+The "*Alexa, tell __{skill_name}__ __{something}__*" format is a bit clunky, and Alexa doesn't always recognize cycle port names, but for posterity's sake, here it is.
+
+## Disclaimer
+This is not officially associated with the docomo cycle service in any way. Use at your own discretion within the terms of use of the docomo cycle service.
 
 ## Usage
 ### Run alexa-cycles server
